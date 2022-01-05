@@ -93,7 +93,7 @@ class LoginController extends Controller
         return redirect ('home');
        }
 
-        // dd($user);
+        // dd($user); // checking user
         // return $user->token;
     }
 }
